@@ -1,0 +1,225 @@
+public class EmployeeData {
+    private final EmployeeDetails[] employees;
+
+    public EmployeeData() {
+        employees = new EmployeeDetails[10];
+        motorPHEmployees();
+    }
+
+    private void motorPHEmployees() {
+        employees[0] = new EmployeeDetails();
+        employees[0].setEmpNum("1");
+        employees[0].setFirstName("Garcia");
+        employees[0].setLastName("Manuel III");
+        employees[0].setBirthdate("10/11/1983");
+        employees[0].setAddress("Valero Carpark Building Valero Street 1227, Makati City");
+        employees[0].setPhoneNum("966-860-270");
+        employees[0].setSssNum("44-4506057-3");
+        employees[0].setPhilHealthNum("820126853951");
+        employees[0].setTinNum("442-605-657-000");
+        employees[0].setPagIbigNum("691295330870");
+        employees[0].setStatus("Regular");
+        employees[0].setPosition("Chief Executive Officer");
+        employees[0].setSupervisor("N/A");
+        employees[0].setBasicSalary(90000);
+        employees[0].setRiceSubsidy(1500);
+        employees[0].setPhoneAllowance(2000);
+        employees[0].setClothingAllowance(1000);
+        employees[0].setSemiMonthlyRate(45000);
+        employees[0].setHourlyRate(535.71);
+
+        employees[1] = new EmployeeDetails();
+        employees[1].setEmpNum("2");
+        employees[1].setFirstName("Antonio");
+        employees[1].setLastName("Lim");
+        employees[1].setBirthdate("06/19/1988");
+        employees[1].setAddress("San Antonio De Padua 2, Block 1 Lot 8 and 2, Dasmarinas, Cavite");
+        employees[1].setPhoneNum("171-867-411");
+        employees[1].setSssNum("52-2061274-9");
+        employees[1].setPhilHealthNum("331735646338");
+        employees[1].setTinNum("683-102-776-000");
+        employees[1].setPagIbigNum("663904995411");
+        employees[1].setStatus("Regular");
+        employees[1].setPosition("Chief Operating Officer");
+        employees[1].setSupervisor("Garcia, Manuel III");
+        employees[1].setBasicSalary(60000);
+        employees[1].setRiceSubsidy(1500);
+        employees[1].setPhoneAllowance(2000);
+        employees[1].setClothingAllowance(1000);
+        employees[1].setSemiMonthlyRate(30000);
+        employees[1].setHourlyRate(357.14);
+
+        employees[2] = new EmployeeDetails();
+        employees[2].setEmpNum("3");
+        employees[2].setFirstName("Bianca Sofia");
+        employees[2].setLastName("Aquino");
+        employees[2].setBirthdate("08/04/1989");
+        employees[2].setAddress("Rm. 402 4/F Jiao Building Timog Avenue Cor. Quezon Avenue 1100, Quezon City");
+        employees[2].setPhoneNum("966-889-370");
+        employees[2].setSssNum("30-8870406-2");
+        employees[2].setPhilHealthNum("177451189665");
+        employees[2].setTinNum("971-711-280-000");
+        employees[2].setPagIbigNum("171519773969");
+        employees[2].setStatus("Regular");
+        employees[2].setPosition("Chief Finance Officer");
+        employees[2].setSupervisor("Garcia, Manuel III");
+        employees[2].setBasicSalary(60000);
+        employees[2].setRiceSubsidy(1500);
+        employees[2].setPhoneAllowance(2000);
+        employees[2].setClothingAllowance(1000);
+        employees[2].setSemiMonthlyRate(30000);
+        employees[2].setHourlyRate(357.14);
+
+        employees[3] = new EmployeeDetails();
+        employees[3].setEmpNum("4");
+        employees[3].setFirstName("Reyes");
+        employees[3].setLastName("Isabella");
+        employees[3].setBirthdate("06/16/1994");
+        employees[3].setAddress("460 Solanda Street Intramuros 1000, Manila");
+        employees[3].setPhoneNum("786-868-477");
+        employees[3].setSssNum("40-2511815-0");
+        employees[3].setPhilHealthNum("341911411254");
+        employees[3].setTinNum("876-809-437-000");
+        employees[3].setPagIbigNum("416946776041");
+        employees[3].setStatus("Regular");
+        employees[3].setPosition("Chief Marketing Officer");
+        employees[3].setSupervisor("Garcia, Manuel III");
+        employees[3].setBasicSalary(60000);
+        employees[3].setRiceSubsidy(1500);
+        employees[3].setPhoneAllowance(2000);
+        employees[3].setClothingAllowance(1000);
+        employees[3].setSemiMonthlyRate(30000);
+        employees[3].setHourlyRate(357.14);
+
+        employees[4] = new EmployeeDetails();
+        employees[4].setEmpNum("5");
+        employees[4].setFirstName("Eduard");
+        employees[4].setLastName("Hernandez");
+        employees[4].setBirthdate("09/23/1989");
+        employees[4].setAddress("National Highway, Gingoog, Misamis Occidental");
+        employees[4].setPhoneNum("088-861-012");
+        employees[4].setSssNum("50-5577638-1");
+        employees[4].setPhilHealthNum("957436191812");
+        employees[4].setTinNum("031-702-374-000");
+        employees[4].setPagIbigNum("952347222457");
+        employees[4].setStatus("Regular");
+        employees[4].setPosition("IT Operations and Systems");
+        employees[4].setSupervisor("Lim, Antonio");
+        employees[4].setBasicSalary(52670);
+        employees[4].setRiceSubsidy(1500);
+        employees[4].setPhoneAllowance(1000);
+        employees[4].setClothingAllowance(1000);
+        employees[4].setSemiMonthlyRate(26335);
+        employees[4].setHourlyRate(313.51);
+
+        employees[5] = new EmployeeDetails();
+        employees[5].setEmpNum("6");
+        employees[5].setFirstName("Villanueva");
+        employees[5].setLastName("Andrea Mae");
+        employees[5].setBirthdate("02/14/1988");
+        employees[5].setAddress("17/85 Stracke Via Suite 042, Poblacion, Las Piñas 4783 Dinagat Islands");
+        employees[5].setPhoneNum("918-621-603");
+        employees[5].setSssNum("49-1632020-8");
+        employees[5].setPhilHealthNum("382189453145");
+        employees[5].setTinNum("317-674-022-000");
+        employees[5].setPagIbigNum("441093369646");
+        employees[5].setStatus("Regular");
+        employees[5].setPosition("HR Manager");
+        employees[5].setSupervisor("Lim, Antonio");
+        employees[5].setBasicSalary(52670);
+        employees[5].setRiceSubsidy(1500);
+        employees[5].setPhoneAllowance(1000);
+        employees[5].setClothingAllowance(1000);
+        employees[5].setSemiMonthlyRate(26335);
+        employees[5].setHourlyRate(313.51);
+
+        employees[6] = new EmployeeDetails();
+        employees[6].setEmpNum("7");
+        employees[6].setFirstName("San Jose");
+        employees[6].setLastName("Brad");
+        employees[6].setBirthdate("03/15/1996");
+        employees[6].setAddress("99 Strosin Hills, Poblacion, Bislig 5340 Tawi-Tawi");
+        employees[6].setPhoneNum("797-009-261");
+        employees[6].setSssNum("40-2400714-1");
+        employees[6].setPhilHealthNum("239192926939");
+        employees[6].setTinNum("672-474-690-000");
+        employees[6].setPagIbigNum("210850209964");
+        employees[6].setStatus("Regular");
+        employees[6].setPosition("HR Team Leader");
+        employees[6].setSupervisor("Villanueva, Andrea Mae");
+        employees[6].setBasicSalary(42975);
+        employees[6].setRiceSubsidy(1500);
+        employees[6].setPhoneAllowance(800);
+        employees[6].setClothingAllowance(800);
+        employees[6].setSemiMonthlyRate(21488);
+        employees[6].setHourlyRate(255.80);
+
+        employees[7] = new EmployeeDetails();
+        employees[7].setEmpNum("8");
+        employees[7].setFirstName("Alice");
+        employees[7].setLastName("Romualdez");
+        employees[7].setBirthdate("05/14/1992");
+        employees[7].setAddress("12A/33 Upton Isle Apt. 420, Roxas City 1814 Surigao del Norte");
+        employees[7].setPhoneNum("983-606-799");
+        employees[7].setSssNum("55-4476527-2");
+        employees[7].setPhilHealthNum("545652640232");
+        employees[7].setTinNum("888-572-294-000");
+        employees[7].setPagIbigNum("211385556888");
+        employees[7].setStatus("Regular");
+        employees[7].setPosition("HR Rank and File");
+        employees[7].setSupervisor("San, Jose Brad");
+        employees[7].setBasicSalary(22500);
+        employees[7].setRiceSubsidy(1500);
+        employees[7].setPhoneAllowance(500);
+        employees[7].setClothingAllowance(500);
+        employees[7].setSemiMonthlyRate(11250);
+        employees[7].setHourlyRate(133.93);
+
+        employees[8] = new EmployeeDetails();
+        employees[8].setEmpNum("9");
+        employees[8].setFirstName("Rosie");
+        employees[8].setLastName("Atienza");
+        employees[8].setBirthdate("09/24/1948");
+        employees[8].setAddress("90A Dibbert Terrace Apt. 190, San Lorenzo 6056 Davao del Norte");
+        employees[8].setPhoneNum("266-036-427");
+        employees[8].setSssNum("41-0644692-3");
+        employees[8].setPhilHealthNum("708988234853");
+        employees[8].setTinNum("604-997-793-000");
+        employees[8].setPagIbigNum("260107732354");
+        employees[8].setStatus("Regular");
+        employees[8].setPosition("HR Rank and File");
+        employees[8].setSupervisor("San, Jose Brad");
+        employees[8].setBasicSalary(22500);
+        employees[8].setRiceSubsidy(1500);
+        employees[8].setPhoneAllowance(500);
+        employees[8].setClothingAllowance(500);
+        employees[8].setSemiMonthlyRate(11250);
+        employees[8].setHourlyRate(133.93);
+
+        employees[9] = new EmployeeDetails();
+        employees[9].setEmpNum("10");
+        employees[9].setFirstName("Roderick");
+        employees[9].setLastName("Alvaro");
+        employees[9].setBirthdate("03/30/1988");
+        employees[9].setAddress("#284 T. Morato corner, Scout Rallos Street, Quezon City");
+        employees[9].setPhoneNum("053-381-386");
+        employees[9].setSssNum("64-7605054-4");
+        employees[9].setPhilHealthNum("578114853194");
+        employees[9].setTinNum("525-420-419-000");
+        employees[9].setPagIbigNum("799254095212");
+        employees[9].setStatus("Regular");
+        employees[9].setPosition("Accounting Head");
+        employees[9].setSupervisor("Aquino, Bianca Sofia");
+        employees[9].setBasicSalary(52670);
+        employees[9].setRiceSubsidy(1500);
+        employees[9].setPhoneAllowance(1000);
+        employees[9].setClothingAllowance(1000);
+        employees[9].setSemiMonthlyRate(26335);
+        employees[9].setHourlyRate(313.51);
+
+    }
+    public EmployeeDetails[] getEmployees() {
+        return employees;
+    }
+}
+
